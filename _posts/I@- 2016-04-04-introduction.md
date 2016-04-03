@@ -1,3 +1,4 @@
+I@: 2016-04-04-introduction
 ---
 layout: post
 cover: false
@@ -5,7 +6,7 @@ title: 博客前言
 date: 2016-04-04
 tags: feelings
 subclass: 'post tag-fiction'
-categories: ‘blog’
+categories: 'blog'
 ---
 
 

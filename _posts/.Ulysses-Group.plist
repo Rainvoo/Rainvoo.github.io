@@ -4,26 +4,28 @@
 <dict>
 	<key>resolutionData</key>
 	<dict>
+		<key>countingGoal</key>
+		<real>481403660.80549002</real>
 		<key>sheetClusters</key>
 		<dict>
 			<key>1863-11-19-gettysburg-address.md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>481402956.21745801</real>
+				<real>481403559.00064498</real>
 				<key>version</key>
 				<dict>
 					<key>5040c81a7a81288745eb23582877d65b43cd96a9be04e49b3e7b94641c82fe71</key>
-					<integer>2</integer>
+					<integer>9</integer>
 				</dict>
 			</dict>
-			<key>2016-04-04-introduction.md</key>
+			<key>I@- 2016-04-04-introduction.md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>481403117.02157599</real>
+				<real>481403614.31791198</real>
 				<key>version</key>
 				<dict>
 					<key>5040c81a7a81288745eb23582877d65b43cd96a9be04e49b3e7b94641c82fe71</key>
-					<integer>5</integer>
+					<integer>11</integer>
 				</dict>
 			</dict>
 		</dict>
@@ -31,7 +33,7 @@
 	<key>sheetClusters</key>
 	<array>
 		<array>
-			<string>2016-04-04-introduction.md</string>
+			<string>I@- 2016-04-04-introduction.md</string>
 		</array>
 		<array>
 			<string>1863-11-19-gettysburg-address.md</string>
@@ -41,10 +43,15 @@
 	<integer>1</integer>
 	<key>versioning</key>
 	<dict>
+		<key>countingGoal</key>
+		<dict>
+			<key>5040c81a7a81288745eb23582877d65b43cd96a9be04e49b3e7b94641c82fe71</key>
+			<integer>4</integer>
+		</dict>
 		<key>sheetClusters</key>
 		<dict>
 			<key>5040c81a7a81288745eb23582877d65b43cd96a9be04e49b3e7b94641c82fe71</key>
-			<integer>6</integer>
+			<integer>12</integer>
 		</dict>
 	</dict>
 </dict>
