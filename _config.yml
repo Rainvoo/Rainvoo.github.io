@@ -7,14 +7,14 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-name: '石上藤萝月，洲前芦荻花'
-description: "听，风车转动的声音"
+name: ''
+description: ""
 
 # Author's info
 author: 'Rainvoo'
 # edit 'categories' in the front matter of every post to match this username
 nickname: 润悟
-bio: '对世界和生命充满好奇。◑ ω ◐'
+bio: '对世界和生命充满好奇 ◑ ω ◐'
 location: 'Beijing, China'
 url: 'https://github.com/Rainvoo'
 image: 'assets/images/rainvoo_pro.jpg'
