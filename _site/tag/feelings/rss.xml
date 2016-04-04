@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>https://github.com/Rainvoo</title>
+   
+   <link>https://github.com/Rainvoo</link>
+   <description>听，风车吹动的声音</description>
+   <language>en-uk</language>
+   <managingEditor> Rainvoo</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>博客前言</title>
+	  <link>/rainvoo//introduction</link>
+	  <author>Rainvoo</author>
+	  <pubDate>2016-04-04T00:00:00+08:00</pubDate>
+	  <guid>/rainvoo//introduction</guid>
+	  <description><![CDATA[
+	     <p>心心念的个人博客终于搭建好了，用的是很好看的 Jasper theme 模板。</p>
+
+<p>马不停蹄地写起来吧，把文字从亿万神经元里踢出来！</p>
+
+<h2 id="section">博客主题：</h2>
+
+<ul>
+  <li>阅读</li>
+  <li>产品</li>
+  <li>设计</li>
+  <li>学习</li>
+  <li>心情</li>
+</ul>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

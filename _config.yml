@@ -8,13 +8,13 @@ language: 'en-uk'
 
 # Website info
 name: '石上藤萝月，洲前芦荻花'
-description: "与丰饶的生命为伍"
+description: "听，风车转动的声音"
 
 # Author's info
 author: 'Rainvoo'
 # edit 'categories' in the front matter of every post to match this username
 nickname: 润悟
-bio: 'A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one.'
+bio: '对生命和世界充满好奇的产品经理。'
 location: 'Beijing, China'
 url: 'https://github.com/Rainvoo'
 image: 'assets/images/rainvoo_pro.jpg'
