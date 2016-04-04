@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "https://ruby.taobao.org"
 
 gem "jekyll", "~> 3.0.3"
 #gem "rdiscount", "~> 2.1.7"

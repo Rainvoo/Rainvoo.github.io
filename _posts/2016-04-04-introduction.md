@@ -1,4 +1,3 @@
-2016-04-04-introduction
 ---
 layout: post
 cover: false
