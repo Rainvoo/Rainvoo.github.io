@@ -1,4 +1,4 @@
-I@: 2016-04-04-introduction
+2016-04-04-introduction
 ---
 layout: post
 cover: false
