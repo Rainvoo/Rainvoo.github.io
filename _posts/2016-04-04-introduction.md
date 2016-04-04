@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'assets/images/cover_justkickit.jpg'
+cover: http://7xr7hh.com1.z0.glb.clouddn.com/cover_justkickit.jpg
 title: 博客前言
 date: 2016-04-04
 tags: feelings
