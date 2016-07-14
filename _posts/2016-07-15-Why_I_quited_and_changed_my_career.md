@@ -8,25 +8,21 @@ tags: feelings
 subclass: 'post tag-fiction'
 categories: '成长'
 ---
+ <p>This is the excerpt.</p>
+ <!--more-->
+ <p>This is the remainder of the post.</p>
 
-
+<summary>
+ 
 2015 年从同济院离职，离开上海，来到北京，转做一名产品。应朋友培炎邀请，近 1 年后回顾转行心路，仍然觉得这很值得。特地记录下来，5 年、10 年后再看，不知那时的自己，又是怎样的体会。
 
-
+</summary>
 
 ## 摘要
 
 
 26 岁，因为缺乏价值感、不喜欢熬夜、以及看空建筑规划相关行业发展，所以扔掉了城市规划师的身份，从上海来到北京，转行做一名在线教育行业的产品经理。转换地还算顺利，虽然自觉成长的不是很快，但工作环境和小伙伴都很赞，自己也接受和完成了一些有趣的挑战，挺满意。心得是多向人请教，多接触新行业的朋友，最好有人带路，及早准备作品。同时不要试图一步到位，要最快地进入渴望的环境。
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
 
 
 ## 为什么要离开规划行业
