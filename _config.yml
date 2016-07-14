@@ -7,14 +7,14 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-name: '写下来吧'
-description: "趁思想还没冻僵"
+name: '写下来'
+description: "要活的"
 
 # Author's info
 author: 'Rainvoo'
 # edit 'categories' in the front matter of every post to match this username
 nickname: 润悟
-bio: '对世界和生命充满好奇 ◑ ω ◐'
+bio: '保持对世界和生命的好奇'
 location: 'Beijing, China'
 url: 'https://github.com/Rainvoo'
 image: 'assets/images/rainvoo_pro.jpg'
