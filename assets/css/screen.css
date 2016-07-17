@@ -957,7 +957,7 @@ body:not(.post-template) .post-title {
 
 .read-more {
     text-decoration: none;
-
+    color: 'red' !important
 }
 
 #read-more-div {
