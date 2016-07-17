@@ -244,7 +244,7 @@ h6 {
 }
 
 a {
-    /*color: #4A4A4A;*/
+    color: #4A4A4A;
     transition: color 0.3s ease;
 }
 
@@ -1915,7 +1915,7 @@ body:not(.post-template) .post-title {
         max-width: 112%; /* fallback when calc doesn't work */
     }
 
-    .post-content a{
+    article section p a{
       color:'red'
     }
 
