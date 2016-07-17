@@ -1914,8 +1914,8 @@ body:not(.post-template) .post-title {
         max-width: 112%; /* fallback when calc doesn't work */
     }
 
-    .post-content p>a{
-      color:'red'
+    .post-content p a{
+      color:'red' !important;
     }
 
     .post-meta {
