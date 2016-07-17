@@ -21,7 +21,7 @@
         </header>
         <section class="post-excerpt">
           <!-- {{ post.content | strip_html | truncatewords: 26 }}  -->
-            <p>{{ post.excerpt }}<a class="read-more" href="{{ site.baseurl }}{{ post.url | remove: '/' }}">read more&raquo;</a></p>
+            <p>{{ post.excerpt }}<a class="read-more" href="{{ site.baseurl }}{{ post.url | remove: '/' }}"><div class=".read-more-div">read more&raquo;</div></a></p>
         </section>
         <footer class="post-meta">
             {% if site.image %}<img class="author-thumb" src="{{ site.baseurl }}{{ site.image }}" alt="Author image" nopin="nopin" />{% endif %}
