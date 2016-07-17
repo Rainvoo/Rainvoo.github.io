@@ -957,12 +957,8 @@ body:not(.post-template) .post-title {
 
 .read-more {
     text-decoration: none;
-    color: 'red' !important
 }
 
-#read-more-div {
-    color: '#22B8DD' !important
-}
 
 .post-meta {
     display: block;
