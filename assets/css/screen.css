@@ -1915,8 +1915,8 @@ body:not(.post-template) .post-title {
         max-width: 112%; /* fallback when calc doesn't work */
     }
 
-    article section p a{
-      color:'red'
+    main article.post section.post-content a{
+      color:'red' !important
     }
 
     .post-meta {
