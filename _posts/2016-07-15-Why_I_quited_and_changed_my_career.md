@@ -6,7 +6,7 @@ date: 2016-07-14
 navigation: True
 tags: feelings
 subclass: 'post tag-fiction'
-categories: '成长'
+categories: 'Feelings'
 more: 2015 年从同济院离职，离开上海，来到北京，转做一名产品。应朋友培炎邀请，近 1 年后回顾转行心路，仍然觉得这很值得。特地记录下来，5 年、10 年后再看，不知那时的自己，又是怎样的体会。
 ---
 

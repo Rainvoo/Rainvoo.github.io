@@ -6,7 +6,7 @@ date: 2016-04-04
 navigation: True
 tags: feelings
 subclass: 'post tag-fiction'
-categories: '感想'
+categories: 'Feelings'
 ---
 
 心心念的个人博客终于搭建好了，用的是很好看的 [Jasper theme 模板](https://github.com/biomadeira/jasper)。

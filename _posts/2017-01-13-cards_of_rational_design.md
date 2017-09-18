@@ -4,9 +4,9 @@ cover:
 title: 理性设计种种——《形式综合论》的设计哲学
 date: 2017-01-13
 navigation: True
-tags: cards
+tags: Note
 subclass: 'post tag-fiction'
-categories: '产品'
+categories: 'Design'
 ---
  <!--more-->
 
