@@ -14,9 +14,6 @@ categories: '技术'
 
 <!--more-->
 
-
-# 更好的使用 terminal
-
 近来频繁使用到命令行，有不少命令不太熟悉，记录一下，方便查找。
 
 ## 命令行
@@ -83,3 +80,5 @@ Shift + b(back)上一页
 ## 相关文章
 
 [Mac OS X Terminal 101：终端使用初级教程](https://www.renfei.org/blog/mac-os-x-terminal-101.html)
+
+
