@@ -4,7 +4,7 @@
  <title>Rainvoo</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-09-19T02:34:14+08:00</updated>
+ <updated>2017-09-19T02:38:05+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>润悟</name>
@@ -249,10 +249,8 @@
    <link href="http://localhost:4000/products/2016/04/20/speak_with_picture/"/>
    <updated>2016-04-20T00:00:00+08:00</updated>
    <id>http://localhost:4000/products/2016/04/20/speak_with_picture</id>
-   <content type="html">&lt;p&gt;&amp;lt;!--more--&amp;gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;然后又联想起一位5年资历PM胖友的经历。公司空降产品VP，看了她的高保真原型+功能注释后，不屑地说：辣鸡。随即甩出一份PRD。胖友一看，勃然大怒，给的是一份2010年风格的DOC文档，花花绿绿洋洋洒洒近万字。产品VP说，教教你什么叫专业。&lt;/p&gt;
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;然后又联想起一位 5 年资历 PM 胖友的经历。公司空降产品 VP，看了她的高保真原型+功能注释后，不屑地说：辣鸡。随即甩出一份 PRD。胖友一看，勃然大怒，给的是一份 2010 年风格的 DOC 文档，花花绿绿洋洋洒洒近万字。产品 VP 说，教教你什么叫专业。&lt;/p&gt;
 
 &lt;p&gt;胖友当场就辞职了。&lt;/p&gt;
 
