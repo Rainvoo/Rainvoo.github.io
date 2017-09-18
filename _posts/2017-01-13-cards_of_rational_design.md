@@ -8,7 +8,10 @@ tags: Note
 subclass: 'post tag-fiction'
 categories: 'Design'
 ---
- <!--more-->
+
+这本书在建筑领域并不吃香，意外在计算机领域，启发了很多人。于是认真重读之。
+
+<!--more-->
 
 # 《形式综合论》
 
