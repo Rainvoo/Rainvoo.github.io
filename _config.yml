@@ -1,9 +1,8 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown: kramdown
+highlighter: rouge
 
-# Permalinks
-permalink:      /:year-:month-:day/:title
+
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
