@@ -13,7 +13,7 @@ title: Home
       </a>
     </h2>
 
-    <div><font size="2.5" color="#999">  {{ post.excerpt | strip_html }} </font></div>
+    <div><font size="3px" color="#999">  {{ post.excerpt | strip_html }} </font></div>
 
   </div>
   {% endfor %}
@@ -21,17 +21,17 @@ title: Home
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.url }}/page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="{{ site.url }}/page{{paginator.next_page}}">前一页</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <span class="pagination-item older">前一页</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.url }}/">Newer</a>
+      <a class="pagination-item newer" href="{{ site.url }}/">后一页</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.url }}/page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="{{ site.url }}/page{{paginator.previous_page}}">后一页</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer">后一页</span>
   {% endif %}
 </div>

@@ -74,24 +74,32 @@ a strong {
   color: inherit;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
+a:hover {
+  color: #9ee5ff;
+}
+
 a:focus {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #268bd2;
   text-decoration: underline;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 h2 {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 1.5rem;
 }
 h3 {
@@ -229,9 +237,9 @@ blockquote p:last-child {
 
 img {
   display: block;
-  max-width: 100%;
+  text-align:center;
+  max-width: 600px;
   margin: 0 0 1rem;
-  border-radius: 5px;
 }
 
 /* Tables */

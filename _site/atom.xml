@@ -59,7 +59,7 @@
     
       
         
-          <a class="sidebar-nav-item" href="/about/">About</a>
+          <a class="sidebar-nav-item" href="/about/">关于</a>
         
       
     
@@ -101,7 +101,7 @@
  <title>Rainvoo</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-09-19T13:37:57+08:00</updated>
+ <updated>2017-09-19T14:16:06+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>润悟</name>
@@ -193,15 +193,15 @@
  </entry>
  
  <entry>
-   <title>理性设计种种——《形式综合论》的设计哲学</title>
+   <title>理性设计种种</title>
    <link href="/design/2017/01/13/cards_of_rational_design/"/>
    <updated>2017-01-13T00:00:00+08:00</updated>
    <id>http://localhost:4000/design/2017/01/13/cards_of_rational_design</id>
-   <content type="html">&lt;p&gt;这本书在建筑领域并不吃香，意外在计算机领域，启发了很多人。于是认真重读之。&lt;/p&gt;
+   <content type="html">&lt;p&gt;这本书在建筑领域并不吃香，意外发现在计算机领域，它启发了很多人。于是认真重读之。&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;h1 id=&quot;形式综合论&quot;&gt;《形式综合论》&lt;/h1&gt;
+&lt;h2 id=&quot;形式综合论的设计哲学&quot;&gt;《形式综合论》的设计哲学&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://img3.doubanio.com/lpic/s4205156.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -209,7 +209,7 @@
 
 &lt;h3 id=&quot;良好的适应&quot;&gt;良好的适应&lt;/h3&gt;
 
-&lt;p&gt;每个设计问题，都开始于试图使两个实体互相适合，及「尚未被发现的形式」和「它的环境」。形式是问题的解答，而环境则限定了问题。所以我们真正要讨论的对象，是形式和环境所组成的整理。二者间的适合，就是良好的适应。&lt;/p&gt;
+&lt;p&gt;每个设计问题，都开始于试图使两个实体互相适合，及 &lt;em&gt;「尚未被发现的形式」和「它的环境」&lt;/em&gt; 。形式是问题的解答，而环境则限定了问题。所以我们真正要讨论的对象，是形式和环境所组成的整理。二者间的适合，就是良好的适应。&lt;/p&gt;
 
 &lt;h3 id=&quot;不自觉的文化&quot;&gt;不自觉的文化&lt;/h3&gt;
 
@@ -255,13 +255,15 @@
    <link href="/feelings/2016/07/14/Why_I_quited_and_changed_my_career/"/>
    <updated>2016-07-14T00:00:00+08:00</updated>
    <id>http://localhost:4000/feelings/2016/07/14/Why_I_quited_and_changed_my_career</id>
-   <content type="html">&lt;p&gt;2015 年从同济院离职，离开上海，来到北京，转做一名产品。应朋友培炎邀请，近 1 年后回顾转行心路，仍然觉得这很值得。特地记录下来，5 年、10 年后再看，不知那时的自己，又是怎样的体会。&lt;/p&gt;
+   <content type="html">&lt;p&gt;2015 年从同济院离职，离开上海，来到北京，转做一名产品。1 年后回顾转行心路，仍然觉得这很值得。特地记录下来，5 年、10 年后再看，不知那时的自己，又是怎样的体会。&lt;/p&gt;
 
 &lt;!--more--&gt;
 
 &lt;h2 id=&quot;摘要&quot;&gt;摘要&lt;/h2&gt;
 
-&lt;p&gt;26 岁，因为缺乏价值感、不喜欢熬夜、以及看空建筑规划相关行业发展，所以扔掉了城市规划师的身份，从上海来到北京，转行做一名在线教育行业的产品经理。转换地还算顺利，虽然自觉成长的不是很快，但工作环境和小伙伴都很赞，自己也接受和完成了一些有趣的挑战，挺满意。心得是多向人请教，多接触新行业的朋友，最好有人带路，及早准备作品。同时不要试图一步到位，要最快地进入渴望的环境。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;26 岁，因为缺乏价值感、不喜欢熬夜、以及看空建筑规划相关行业发展，所以扔掉了城市规划师的身份，从上海来到北京，转行做一名在线教育行业的产品经理。转换地还算顺利，虽然自觉成长的不是很快，但工作环境和小伙伴都很赞，自己也接受和完成了一些有趣的挑战，挺满意。心得是多向人请教，多接触新行业的朋友，最好有人带路，及早准备作品。同时不要试图一步到位，要最快地进入渴望的环境。&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;为什么要离开规划行业&quot;&gt;为什么要离开规划行业&lt;/h2&gt;
 

@@ -12,7 +12,7 @@ tagline:             '对这个世界充满热情和好奇'
 description:         '这是一个个人博客，主要写一些读书心得和对世界的观察，作者是  <a href="https://github.com/rainvoo" target="_blank">@润悟</a>.'
 url:                 'http://rainvoo.com'
 baseurl:
-paginate:            3
+paginate:            4
 
 # About/contact
 author:
