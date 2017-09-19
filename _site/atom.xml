@@ -59,10 +59,14 @@
     
       
         
-          <a class="sidebar-nav-item" href="/about">About</a>
+          <a class="sidebar-nav-item" href="/about/">About</a>
         
       
     
+      
+    
+      
+        
       
     
 
@@ -97,7 +101,7 @@
  <title>Rainvoo</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-09-19T09:21:37+08:00</updated>
+ <updated>2017-09-19T13:37:57+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>润悟</name>
@@ -106,15 +110,15 @@
 
  
  <entry>
-   <title>更好的使用命令行</title>
-   <link href="/year/month/day/title.html"/>
+   <title>更好的使用命令</title>
+   <link href="/tech/2017/09/13/how-to-use-terminal-better/"/>
    <updated>2017-09-13T00:00:00+08:00</updated>
-   <id>http://localhost:4000/year/month/day/how-to-use-terminal-better</id>
+   <id>http://localhost:4000/tech/2017/09/13/how-to-use-terminal-better</id>
    <content type="html">&lt;p&gt;近来频繁使用到命令行，有不少命令不太熟悉，记录一下，方便查找。&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;h2 id=&quot;命令行&quot;&gt;命令行&lt;/h2&gt;
+&lt;h2 id=&quot;这些命令比较常用&quot;&gt;这些命令比较常用&lt;/h2&gt;
 
 &lt;h3 id=&quot;pwd&quot;&gt;pwd&lt;/h3&gt;
 
@@ -190,16 +194,16 @@
  
  <entry>
    <title>理性设计种种——《形式综合论》的设计哲学</title>
-   <link href="/year/month/day/title.html"/>
+   <link href="/design/2017/01/13/cards_of_rational_design/"/>
    <updated>2017-01-13T00:00:00+08:00</updated>
-   <id>http://localhost:4000/year/month/day/cards_of_rational_design</id>
+   <id>http://localhost:4000/design/2017/01/13/cards_of_rational_design</id>
    <content type="html">&lt;p&gt;这本书在建筑领域并不吃香，意外在计算机领域，启发了很多人。于是认真重读之。&lt;/p&gt;
 
 &lt;!--more--&gt;
 
 &lt;h1 id=&quot;形式综合论&quot;&gt;《形式综合论》&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://img5.doubanio.com/lpic/s4205156.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://img3.doubanio.com/lpic/s4205156.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;术语卡&quot;&gt;术语卡&lt;/h2&gt;
 
@@ -248,9 +252,9 @@
  
  <entry>
    <title>说转行——人生总要兜兜转转</title>
-   <link href="/year/month/day/title.html"/>
+   <link href="/feelings/2016/07/14/Why_I_quited_and_changed_my_career/"/>
    <updated>2016-07-14T00:00:00+08:00</updated>
-   <id>http://localhost:4000/year/month/day/Why_I_quited_and_changed_my_career</id>
+   <id>http://localhost:4000/feelings/2016/07/14/Why_I_quited_and_changed_my_career</id>
    <content type="html">&lt;p&gt;2015 年从同济院离职，离开上海，来到北京，转做一名产品。应朋友培炎邀请，近 1 年后回顾转行心路，仍然觉得这很值得。特地记录下来，5 年、10 年后再看，不知那时的自己，又是怎样的体会。&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -349,9 +353,9 @@
  
  <entry>
    <title>用图说话</title>
-   <link href="/year/month/day/title.html"/>
+   <link href="/products/2016/04/20/speak_with_picture/"/>
    <updated>2016-04-20T00:00:00+08:00</updated>
-   <id>http://localhost:4000/year/month/day/speak_with_picture</id>
+   <id>http://localhost:4000/products/2016/04/20/speak_with_picture</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;然后又联想起一位 5 年资历 PM 胖友的经历。公司空降产品 VP，看了她的高保真原型+功能注释后，不屑地说：辣鸡。随即甩出一份 PRD。胖友一看，勃然大怒，给的是一份 2010 年风格的 DOC 文档，花花绿绿洋洋洒洒近万字。产品 VP 说，教教你什么叫专业。&lt;/p&gt;
 
@@ -363,6 +367,50 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;哈哈哈，建筑系早就是用图说话啦。讲方案可以不写 PPT，但一定要扔出立面图。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>网络时代的福利：向顶尖艺术家和设计师学习品味</title>
+   <link href="/design/2016/02/26/improve-taste-from-the-top-designers/"/>
+   <updated>2016-02-26T00:00:00+08:00</updated>
+   <id>http://localhost:4000/design/2016/02/26/improve-taste-from-the-top-designers</id>
+   <content type="html">&lt;p&gt;Keynote 是讲者的传达自己想法的工具，只是这件工具，通常需要我们自己来打磨。新手做 Keynote 的最大问题，不是不知道怎么用软件，而是标准太低，缺乏对 Keynote 的品味，以至于缺乏修改 Keynote 的动力，也不知往哪个方向改善。&lt;/p&gt;
+
+&lt;p&gt;品味，难以教授，只能熏陶。我们只有看过大量好作品，让大脑形成关于好作品的范畴，才能建立关于设计的品味。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;好在，互联网时代，大量的好作品触手可及，并且好的设计师总是扎堆成群，较量作品，惠及我等庸众，真是乐不可言。推荐一些如下：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pinterest.com/search/pins/?q=Keynote&amp;amp;rs=typed&amp;amp;0=Keynote%7Ctyped&quot;&gt;在图库 Pinterest 上检索 Keynote&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.behance.net/search?content=projects&amp;amp;sort=appreciations&amp;amp;time=week&amp;amp;search=Keynote&quot;&gt;在 Behance （由 Adobe 公司打造的顶级在线作品集平台）中检索 Keynote&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dribbble.com/search?q=keynote&quot;&gt;顶级 UI 单图平台 dribbble 中检索 Keynote&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cargocollective.com/&quot;&gt;CargoCollective: 创意设计团队展示平台&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://adsoftheworld.com/&quot;&gt;创意广告&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://issuu.com/&quot;&gt;时尚杂志在线网站 Issuu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.thomasdanthony.com/&quot;&gt;向英国插画师 Thomas Danthony 学配色组合&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;那我们要向这些作品学习什么？&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;如何制作一个与内容相关又有区分度的封面&lt;/li&gt;
+  &lt;li&gt;如何用形式定义不同层级的信息&lt;/li&gt;
+  &lt;li&gt;不同的信息类型如何搭配&lt;/li&gt;
+  &lt;li&gt;同一级杂乱的信息如何同一&lt;/li&gt;
+  &lt;li&gt;如何配色&lt;/li&gt;
+  &lt;li&gt;如何组合字体&lt;/li&gt;
+  &lt;li&gt;……&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;不用回答，只是带着问题去看，你会发现所有的好作品都有会用相似的手法。&lt;/p&gt;
+
+&lt;p&gt;至于是哪些手法？下次再展开讲。:D&lt;/p&gt;
+
+&lt;p&gt;20160226 by @润悟&lt;/p&gt;
+
 </content>
  </entry>
  

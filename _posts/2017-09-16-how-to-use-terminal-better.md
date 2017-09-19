@@ -1,7 +1,7 @@
 ---
 layout: post
 cover:
-title: 更好的使用命令行
+title: 更好的使用命令
 date: 2017-09-13
 navigation: True
 tags: Note
@@ -14,7 +14,7 @@ categories: 'Tech'
 
 <!--more-->
 
-## 命令行
+## 这些命令比较常用
 
 ### pwd
 

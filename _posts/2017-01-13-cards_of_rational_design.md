@@ -15,7 +15,7 @@ categories: 'Design'
 
 # 《形式综合论》
 
-![](https://img5.doubanio.com/lpic/s4205156.jpg)
+![](https://img3.doubanio.com/lpic/s4205156.jpg)
 
 ## 术语卡
 
