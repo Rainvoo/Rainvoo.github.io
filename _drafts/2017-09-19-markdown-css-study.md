@@ -1,4 +1,12 @@
-# markdown css 学习
+---
+layout: post
+cover:
+title: 如何设计一份好用的 CSS
+date: 2017-10-13
+navigation: True
+tags: Note
+categories: 'Tech'
+---
 
 
 
