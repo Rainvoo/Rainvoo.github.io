@@ -2,7 +2,7 @@
 layout: post
 cover:
 title: 如何设计一份好用的 CSS
-date: 2017-10-13
+date: 2017-09-20
 navigation: True
 tags: Note
 categories: 'Tech'

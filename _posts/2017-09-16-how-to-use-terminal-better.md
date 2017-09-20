@@ -1,7 +1,7 @@
 ---
 layout: post
 cover:
-title: 更好的使用命令
+title: 更好地使用命令
 date: 2017-09-13
 navigation: True
 tags: Note
@@ -73,7 +73,7 @@ vi/vim 分三种模式: `「指令模式」`、`「编辑模式」`、`「选择
   - Shift + f(front) 下一页
   - Shift + b(back) 上一页
 
-## 相关文章
+## 相关参考
 
 [Mac OS X Terminal 101：终端使用初级教程](https://www.renfei.org/blog/mac-os-x-terminal-101.html)
 
