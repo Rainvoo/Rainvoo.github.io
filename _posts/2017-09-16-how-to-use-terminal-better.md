@@ -2,7 +2,7 @@
 layout: post
 cover:
 title: 更好地使用命令
-date: 2017-09-13
+date: 2017-09-16
 navigation: True
 tags: Note
 categories: 'Tech'
