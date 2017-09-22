@@ -101,7 +101,7 @@
  <title>Rainvoo</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-09-22T12:33:31+08:00</updated>
+ <updated>2017-09-22T13:26:10+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>润悟</name>
@@ -226,7 +226,7 @@
 
 &lt;p&gt;20 年前，移动设备的计算能力有限，张宏江老师他们觉得这个处理的能力应该是分布式的计算（云计算）。现在，20 年前的设想已经变成现实，时代在进步。&lt;/p&gt;
 
-&lt;p&gt;而图像识别技术史 = 人脸数据库 + 计算能力的扩张史。&lt;/p&gt;
+&lt;p&gt;图像识别技术史 = 人脸数据库 + 计算能力的扩张史。&lt;/p&gt;
 
 &lt;h3 id=&quot;人脸数据库&quot;&gt;人脸数据库&lt;/h3&gt;
 
@@ -309,7 +309,7 @@
 
 &lt;h3 id=&quot;ai-不仅仅是模仿人类而是将超于人类&quot;&gt;AI 不仅仅是模仿人类，而是将超于人类&lt;/h3&gt;
 
-&lt;p&gt;在图片领域，目前 AI 的最新成果，是未来的&lt;strong&gt;自动标注系统（MSR）&lt;/strong&gt;  &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;，不仅能识别图片，还能看图讲故事。&lt;/p&gt;
+&lt;p&gt;在图片领域，目前 AI 的最新成果，是未来的&lt;strong&gt;自动标注系统&lt;/strong&gt;（MSR）  &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;，不仅能识别图片，还能看图讲故事。&lt;/p&gt;
 
 &lt;p&gt;举一个微软研究院的例子。在这个例子里，机器看到 Stop Sign 标志，会描述出这是在一个城市边上有这样一个标志，有红色，立柱，与交通相关等等标签。这个系统希望能看图讲故事，不是看图识字，是识图讲故事。&lt;/p&gt;
 
@@ -348,11 +348,11 @@
 
 &lt;p&gt;&lt;img src=&quot;http://7xr7hh.com1.z0.glb.clouddn.com/2017-09-21-ChinaInternet60s.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;这是 CIC 发布的「60秒看中国社会化媒体表现」信息图。每隔 60 秒，中国互联网会产生400 万百度搜索、1100 万条 QQ 信息、160 万条微博以及 1500 万的支付宝交易。&lt;/p&gt;
+&lt;p&gt;这是 CIC 发布的「60秒看中国社会化媒体表现」信息图。每隔 60 秒，中国互联网会产生 400 万次百度搜索、1100 万条 QQ 信息、160 万条微博以及 1500 万元的支付宝交易。&lt;/p&gt;
 
 &lt;p&gt;还有今日头条。根据今年乌镇大会的数据，今日头条不仅仅只是个新闻推荐引擎，它还有文字、图片、视频、问答、直播，累积激活用户 6 亿，日活 6600w，1.4 亿月活，用户平均每天时长花 76 分钟。今日头条每天有超过 6 亿的用户请求，不仅自己有超过 4 万台服务器，还是金山超级大客户之一，消耗了大量的云资源，每天处理数据 6.3 PB。&lt;/p&gt;
 
-&lt;p&gt;这是多么可怕，今日头条会越来越智能。&lt;/p&gt;
+&lt;p&gt;这是多么可怕，今日头条这样的 AI 公司，会越来越智能。&lt;/p&gt;
 
 &lt;h2 id=&quot;相关阅读&quot;&gt;相关阅读&lt;/h2&gt;
 
