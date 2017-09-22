@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: True
 cover:
 title: 用图说话
 date: 2016-04-20
@@ -18,5 +19,3 @@ categories: 'Products'
 
 
 哈哈哈，建筑系早就是用图说话啦。讲方案可以不写 PPT，但一定要扔出立面图。
-
-

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: True
 cover: http://7xr7hh.com1.z0.glb.clouddn.com/cover_justkickit.jpg
 title: 说转行——人生总要兜兜转转
 date: 2016-07-14
@@ -103,5 +104,3 @@ categories: 'Feelings'
 
 
 160715 润悟写于深夜
-
-

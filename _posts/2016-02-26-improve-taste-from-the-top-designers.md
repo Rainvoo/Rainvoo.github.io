@@ -1,10 +1,11 @@
 ---
 layout: post
+comments: True
 cover:
 title: 网络时代的福利：向顶尖艺术家和设计师学习品味
 date: 2016-02-26
 navigation: True
-tags: 
+tags:
 categories: 'Design'
 ---
 
@@ -39,4 +40,3 @@ Keynote 是讲者的传达自己想法的工具，只是这件工具，通常需
 至于是哪些手法？下次再展开讲。:D
 
 20160226 by @润悟
-

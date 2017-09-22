@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: True
 cover:
 title: 从工业的角度看大数据到人工智能——张宏江讲座
 date: 2017-03-13

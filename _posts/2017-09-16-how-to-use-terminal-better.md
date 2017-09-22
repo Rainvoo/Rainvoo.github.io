@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: True
 cover:
 title: 更好地使用命令
 date: 2017-09-16
@@ -76,5 +77,3 @@ vi/vim 分三种模式: `「指令模式」`、`「编辑模式」`、`「选择
 ## 相关参考
 
 [Mac OS X Terminal 101：终端使用初级教程](https://www.renfei.org/blog/mac-os-x-terminal-101.html)
-
-
