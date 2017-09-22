@@ -106,19 +106,24 @@ AI 的大发展，来自于两个方面——**「数据爆炸」**和**「计�
   
 ## 6. AI：未来产业的核心竞争力
 
-> we believe the ability to leverage AI technologies will become one of the major defining attributes of competitive advantage across all major industries in the coming years.
+> We believe the ability to leverage AI technologies will become one of the major defining attributes of competitive advantage across all major industries in the coming years.
+> 
 >  -- Goldman Sacts AI Report
   
-未来，能够应用 AI 技术的公司，显著提高效率的公司，更具有核心竞争优势。这也是为什么随着阿尔法狗的爆炸，突然满地都是热钱和人工智能公司。但是否会有更多上十亿、上百亿美金的人工智能公司？未来的产业形势会怎么样？大概有三种模式：
+未来，能够应用 AI 技术的公司，显著提高效率的公司，更具有核心竞争优势。所以阿尔法狗之后，满地都是热钱和人工智能公司。但是，谁能脱颖而出，成为上十亿、上百亿美金的人工智能公司？未来的产业形势，又何去何从？
+
+### 三种模式：AI 平台、咨询服务、AI-aas
+
+张宏江老师认为大概有三种模式：
 
 1. 有数据有人才的企业，大量投入，自主研发 AI，用于自身的需求，并力图成为未来的 AI 平台。BAT、Facebook、微软都在做。
 2. 咨询服务。有数据或/和 AI 技术的公司，为需要 AI 能力的公司提供技术服务和解决方案力。
-3. 人工智能即服务（AI-aaS）。为了获得 AI 支撑能力，许多公司将会选择利用其它公司提供的基础 AI 服务而不是自己搭建。
+3. 人工智能即服务（AI-aaS）。为了获得 AI 支撑能力，许多公司将会选择利用其它公司提供的基础 AI 服务而不是自己搭建。例如亚马逊的云计算服务（AWS）已经开始提供深度学习的框架服务。[^3]
 
 
 ### 竞争门槛——人才、数据
 
-人才、数据是核心深度学习的训练，需要人对于相应的算法有深刻理解，并且掌握训练的技巧。另外，在算法实力相差不大时，数据集的规模，将成为 AI 公司最终的护城河。
+人才、数据是核心深度学习的训练，需要人对于相应的算法有深刻理解，并且掌握训练的技巧。另外，在算法实力相差不大时，所拥有的数据的规模，将成为 AI 公司最终的护城河。
 
 
 ### AI 产业链：基础、技术和应用
@@ -144,5 +149,6 @@ AI 的大发展，来自于两个方面——**「数据爆炸」**和**「计�
 
 [^1]:[人工智能背后是超高速数据中心，间接推动100G以太网交换机市场](http://net.it168.com/a2017/0718/3148/000003148818.shtml)
 [^2]:[微软自动图像说明技术的最新进展](http://blog.sina.com.cn/s/blog_4caedc7a0102v72n.html)
+[^3]:[Amazon AI – Amazon Web Services 上的人工智能](https://aws.amazon.com/cn/amazon-ai/)
 
 

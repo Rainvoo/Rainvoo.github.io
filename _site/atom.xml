@@ -101,7 +101,7 @@
  <title>Rainvoo</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-09-22T13:26:10+08:00</updated>
+ <updated>2017-09-22T15:10:13+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>润悟</name>
@@ -320,21 +320,26 @@
 &lt;h2 id=&quot;6-ai未来产业的核心竞争力&quot;&gt;6. AI：未来产业的核心竞争力&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;we believe the ability to leverage AI technologies will become one of the major defining attributes of competitive advantage across all major industries in the coming years.
- – Goldman Sacts AI Report&lt;/p&gt;
+  &lt;p&gt;We believe the ability to leverage AI technologies will become one of the major defining attributes of competitive advantage across all major industries in the coming years.&lt;/p&gt;
+
+  &lt;p&gt;– Goldman Sacts AI Report&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;未来，能够应用 AI 技术的公司，显著提高效率的公司，更具有核心竞争优势。这也是为什么随着阿尔法狗的爆炸，突然满地都是热钱和人工智能公司。但是否会有更多上十亿、上百亿美金的人工智能公司？未来的产业形势会怎么样？大概有三种模式：&lt;/p&gt;
+&lt;p&gt;未来，能够应用 AI 技术的公司，显著提高效率的公司，更具有核心竞争优势。所以阿尔法狗之后，满地都是热钱和人工智能公司。但是，谁能脱颖而出，成为上十亿、上百亿美金的人工智能公司？未来的产业形势，又何去何从？&lt;/p&gt;
+
+&lt;h3 id=&quot;三种模式ai-平台咨询服务ai-aas&quot;&gt;三种模式：AI 平台、咨询服务、AI-aas&lt;/h3&gt;
+
+&lt;p&gt;张宏江老师认为大概有三种模式：&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;有数据有人才的企业，大量投入，自主研发 AI，用于自身的需求，并力图成为未来的 AI 平台。BAT、Facebook、微软都在做。&lt;/li&gt;
   &lt;li&gt;咨询服务。有数据或/和 AI 技术的公司，为需要 AI 能力的公司提供技术服务和解决方案力。&lt;/li&gt;
-  &lt;li&gt;人工智能即服务（AI-aaS）。为了获得 AI 支撑能力，许多公司将会选择利用其它公司提供的基础 AI 服务而不是自己搭建。&lt;/li&gt;
+  &lt;li&gt;人工智能即服务（AI-aaS）。为了获得 AI 支撑能力，许多公司将会选择利用其它公司提供的基础 AI 服务而不是自己搭建。例如亚马逊的云计算服务（AWS）已经开始提供深度学习的框架服务。&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;竞争门槛人才数据&quot;&gt;竞争门槛——人才、数据&lt;/h3&gt;
 
-&lt;p&gt;人才、数据是核心深度学习的训练，需要人对于相应的算法有深刻理解，并且掌握训练的技巧。另外，在算法实力相差不大时，数据集的规模，将成为 AI 公司最终的护城河。&lt;/p&gt;
+&lt;p&gt;人才、数据是核心深度学习的训练，需要人对于相应的算法有深刻理解，并且掌握训练的技巧。另外，在算法实力相差不大时，所拥有的数据的规模，将成为 AI 公司最终的护城河。&lt;/p&gt;
 
 &lt;h3 id=&quot;ai-产业链基础技术和应用&quot;&gt;AI 产业链：基础、技术和应用&lt;/h3&gt;
 
@@ -363,6 +368,9 @@
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
       &lt;p&gt;&lt;a href=&quot;http://blog.sina.com.cn/s/blog_4caedc7a0102v72n.html&quot;&gt;微软自动图像说明技术的最新进展&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/cn/amazon-ai/&quot;&gt;Amazon AI – Amazon Web Services 上的人工智能&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
