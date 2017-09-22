@@ -101,7 +101,7 @@
  <title>Rainvoo</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-09-22T10:02:25+08:00</updated>
+ <updated>2017-09-22T12:33:31+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>润悟</name>
@@ -289,11 +289,7 @@
       &lt;li&gt;你看不到数据，你就看不到问题&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;以部署为推动
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://net.it168.com/a2017/0718/3148/000003148818.shtml&quot;&gt;人工智能背后是超高速数据中心，间接推动100G以太网交换机市场-IT168 网络通信专区&lt;/a&gt;）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;以部署为推动&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;5-大数据正在成为企业-ai-的标配&quot;&gt;5. 大数据：正在成为企业 AI 的标配&lt;/h2&gt;
@@ -313,7 +309,7 @@
 
 &lt;h3 id=&quot;ai-不仅仅是模仿人类而是将超于人类&quot;&gt;AI 不仅仅是模仿人类，而是将超于人类&lt;/h3&gt;
 
-&lt;p&gt;目前的 AI 的最新成果，是未来的&lt;strong&gt;自动标注系统（MSR）&lt;/strong&gt;，不仅能识别图片，还能看图讲故事。&lt;/p&gt;
+&lt;p&gt;在图片领域，目前 AI 的最新成果，是未来的&lt;strong&gt;自动标注系统（MSR）&lt;/strong&gt;  &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;，不仅能识别图片，还能看图讲故事。&lt;/p&gt;
 
 &lt;p&gt;举一个微软研究院的例子。在这个例子里，机器看到 Stop Sign 标志，会描述出这是在一个城市边上有这样一个标志，有红色，立柱，与交通相关等等标签。这个系统希望能看图讲故事，不是看图识字，是识图讲故事。&lt;/p&gt;
 
@@ -338,7 +334,7 @@
 
 &lt;h3 id=&quot;竞争门槛人才数据&quot;&gt;竞争门槛——人才、数据&lt;/h3&gt;
 
-&lt;p&gt;人才、数据是核心，投算法本身就是投人，深度学习的训练需要人对于这个算法的理解并且掌握的训练的技巧，懂算法还要懂应用的人才是非常有价值的。另外，数据实际上是 AI 公司最终的护城河。&lt;/p&gt;
+&lt;p&gt;人才、数据是核心深度学习的训练，需要人对于相应的算法有深刻理解，并且掌握训练的技巧。另外，在算法实力相差不大时，数据集的规模，将成为 AI 公司最终的护城河。&lt;/p&gt;
 
 &lt;h3 id=&quot;ai-产业链基础技术和应用&quot;&gt;AI 产业链：基础、技术和应用&lt;/h3&gt;
 
@@ -346,7 +342,7 @@
 
 &lt;p&gt;强人工智能，或者通用 AI 是未来的目标。当然，AI 成为主流技术需要时间。自动驾驶、机器翻译都在成为主流，但需要 3～5 年才能应用。近期会蓬勃发展的，是特定目标的弱 AI。&lt;/p&gt;
 
-&lt;h3 id=&quot;ai中国创新的机会&quot;&gt;AI：中国创新的机会&lt;/h3&gt;
+&lt;h2 id=&quot;7-ai中国创新的机会&quot;&gt;7. AI：中国创新的机会&lt;/h2&gt;
 
 &lt;p&gt;中国有海量的互联网人口，意味着会产生海量的数据。&lt;/p&gt;
 
@@ -358,6 +354,18 @@
 
 &lt;p&gt;这是多么可怕，今日头条会越来越智能。&lt;/p&gt;
 
+&lt;h2 id=&quot;相关阅读&quot;&gt;相关阅读&lt;/h2&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://net.it168.com/a2017/0718/3148/000003148818.shtml&quot;&gt;人工智能背后是超高速数据中心，间接推动100G以太网交换机市场&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://blog.sina.com.cn/s/blog_4caedc7a0102v72n.html&quot;&gt;微软自动图像说明技术的最新进展&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </content>
  </entry>
  
