@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      产品需求文档、原型图自查清单 &middot; Rainvoo
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>这是一个个人博客，主要写一些读书心得和对世界的观察，作者是  <a href="https://github.com/rainvoo" target="_blank">@润悟</a>.</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">文章</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">关于</a>
+        
+      
+    
+      
+    
+      
+        
+      
+    
+
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2017. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://localhost:4000/" title="Home">Rainvoo</a>
+            <small>请看石上藤萝月，已映洲前芦笛花</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">产品需求文档、原型图自查清单</h1>
+  <span class="post-date">28 Nov 2017</span>
+</div>
+<div class="content">
+    <p>刚画完的原型，一般都会自我感觉良好，当到了评审的时候，才会发现：</p>
+
+<p>只考虑主流程或者某个模块流程，却把分支流程、特殊状态给忘了；某个模块在多处复用，没用母版，修改了 A1，A2 却没改；更新版本多了，前置条件边了，老版本的内容却没改过来……</p>
+
+<p>开需求会前，先根据以下清单自查需求，能避免很多可以预见的错误，减少被开发和设计师吐槽。</p>
+
+<!--more-->
+
+<p><img src="https://tse3-mm.cn.bing.net/th?id=OIP.XE6iJB71TPPEGVvJ7U7QzAEXDf&amp;p=0&amp;pid=1.1" alt="" /></p>
+
+<h1 id="清单原则">清单原则</h1>
+
+<h1 id="1-主流程">1. 主流程</h1>
+
+<h2 id="11-前置条件">1.1 前置条件</h2>
+
+<ul>
+  <li>是否有账号 / 状态的区别</li>
+  <li>是否有权限区别</li>
+</ul>
+
+<h2 id="12-内容--页面">1.2 内容 / 页面</h2>
+
+<h3 id="入口">入口</h3>
+
+<ul>
+  <li>从哪个模块进入</li>
+  <li>首次进入 / 二次进入，是否有区别</li>
+  <li>是否需要购买</li>
+</ul>
+
+<h3 id="显示机制">显示机制</h3>
+
+<ul>
+  <li>文字长度、特殊符号、敏感词限制</li>
+  <li>内容为空时如何显示</li>
+  <li>是否有数据记录单位</li>
+  <li>是否有备注</li>
+  <li>内容输入，是否会被键盘弹出遮盖</li>
+  <li>是否有占位图</li>
+</ul>
+
+<h3 id="排序机制">排序机制</h3>
+
+<ul>
+  <li>以什么维度排序
+    <ul>
+      <li>如果是新内容，可能以更新时间排序</li>
+      <li>如果是帖子，可能以赞同数排序</li>
+      <li>如果是商品，可能以收藏数 / 销量 / 价格排序</li>
+      <li>存在多个维度的排序规则时，规则之间的优先级如何，比如信息流产品</li>
+    </ul>
+  </li>
+  <li>排序展示形式
+    <ul>
+      <li>翻页展示</li>
+      <li>瀑布流展示</li>
+      <li>一页显示多少项，是否分组取数据</li>
+    </ul>
+  </li>
+  <li>刷新机制
+    <ul>
+      <li>自动刷新 or 手动刷新</li>
+      <li>刷新时机</li>
+      <li>一次刷新多少数据</li>
+      <li>如何刷新更多</li>
+      <li>没有更多新内容，有什么提示</li>
+    </ul>
+  </li>
+  <li>缓存机制
+    <ul>
+      <li>哪些页面需要缓存机制</li>
+      <li>缓存到哪里</li>
+      <li>什么时候清理缓存</li>
+      <li>定时自动清理缓存 or 用户手动清理缓存</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="13-控件">1.3 控件</h2>
+
+<h3 id="退出返回">退出、返回</h3>
+
+<ul>
+  <li>页面返回键</li>
+  <li>home 键</li>
+  <li>物理返回键</li>
+  <li>是否可能有循环嵌套</li>
+</ul>
+
+<h3 id="触发从状态-a-切到状态-b">触发，从状态 A 切到状态 B</h3>
+
+<h4 id="触发前">触发前</h4>
+
+<ul>
+  <li>控件的触发区域</li>
+  <li>操作区域是否便于用户感知</li>
+  <li>禁用状态</li>
+</ul>
+
+<h4 id="触发时">触发时</h4>
+
+<ul>
+  <li>是否有触发反馈，反馈是否清晰
+    <ul>
+      <li>控件颜色、样式是否会发生改变</li>
+      <li>是否有高亮</li>
+    </ul>
+  </li>
+  <li>状态改变的等待时间是否超过2S左右，如果太长是否需要加入加载状态</li>
+</ul>
+
+<h4 id="触发后">触发后</h4>
+
+<ul>
+  <li>操作进度显示</li>
+  <li>控件发生变化</li>
+  <li>结果提示
+    <ul>
+      <li>小红点</li>
+      <li>toast</li>
+      <li>页面文案</li>
+      <li>弹窗（删除、修改类危险操作，一定要弹窗警告提示）</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="2-交互细节">2. 交互细节</h1>
+
+<ul>
+  <li>页面信息布局</li>
+  <li>页面切换效果</li>
+  <li>操作按钮位置</li>
+  <li>操作反馈</li>
+</ul>
+
+<h1 id="3-边界异常-case">3. 边界、异常 case</h1>
+
+<h2 id="31-异常操作">3.1 异常操作</h2>
+
+<ul>
+  <li>连续多次点击，是否有反馈</li>
+</ul>
+
+<h2 id="32-网络">3.2 网络</h2>
+
+<ul>
+  <li>无网络、断网提示</li>
+  <li>网络超时、网络太慢</li>
+  <li>从 WiFi 切换到 2G/3G（有没有从室内到室外的场景）</li>
+  <li>网络加载状态</li>
+  <li>加载失败状态 &amp; 重试按钮</li>
+</ul>
+
+<h2 id="33-账号相关">3.3 账号相关</h2>
+
+<ul>
+  <li>是否需要登录才能使用，是否有游客模式</li>
+  <li>苹果审核是否隐藏了微信等第三方登录按钮</li>
+  <li>仅登录状态下的操作，对游客是否有登录提醒
+    <ul>
+      <li>支付购买</li>
+      <li>收藏</li>
+      <li>评论</li>
+      <li>领取优惠</li>
+      <li>数据同步</li>
+      <li>……</li>
+    </ul>
+  </li>
+  <li>多设备登录</li>
+</ul>
+
+<h2 id="34-数据相关">3.4 数据相关</h2>
+
+<ul>
+  <li>从服务器获取不到数据时，内置默认图片</li>
+  <li>无内容时，默认提示</li>
+  <li>数据检索失败</li>
+  <li>数据丢失</li>
+</ul>
+
+<h2 id="35-缓存">3.5 缓存</h2>
+
+<ul>
+  <li>编辑内容是否缓存</li>
+  <li>编辑模式下出现意外情况是否提示保存或自动保存已填信息</li>
+  <li>最新数据与缓存数据不一致</li>
+</ul>
+
+<h2 id="36-版本相关">3.6 版本相关</h2>
+
+<ul>
+  <li>是否强制更新</li>
+  <li>是否显示版本提示更新</li>
+  <li>是否支持热更新</li>
+  <li>是否和旧版本兼容</li>
+  <li>重大不兼容的升级，是否强制用户更新</li>
+</ul>
+
+<h2 id="37-硬件环境类">3.7 硬件、环境类</h2>
+
+<ul>
+  <li>过大、过小尺寸屏幕，是否适配有问题，如 iPad、iPhone5s</li>
+  <li>横竖屏旋转，布局是否不合理，是否在某些页面做锁定旋转</li>
+  <li>内存不足</li>
+  <li>SD卡 文件下载、导入本地时，没有SD卡、SD卡储存已满、储存位置等情况是否考虑并备注（三星手机用户常见此问题）</li>
+  <li>权限不足
+    <ul>
+      <li>是否用户关闭了部分权限，导致功能不可用（相册、照相机、定位、麦克风），是否有相关告知</li>
+    </ul>
+  </li>
+  <li>密码输入，是否支持 touchID</li>
+  <li>是否需要考虑夜间模式（有没有光线较暗的场景）</li>
+</ul>
+
+<h2 id="通知相关">通知相关</h2>
+
+<p>消息推送 是否需要消息推送，调用系统通知还是其他方式
+推送策略 是否备注通知的推送时间、表现形式、失效策略</p>
+
+<h2 id="38-活动类">3.8 活动类</h2>
+
+<ul>
+  <li>活动有效期</li>
+  <li>过期提醒和权限变更</li>
+</ul>
+
+<h2 id="39-其他">3.9 其他</h2>
+
+<ul>
+  <li>事件互斥性，执行某个操作的同时执行其他操作是否允许
+    <ul>
+      <li>eg：语音播放过程中，点击返回是否结束语音播放</li>
+    </ul>
+  </li>
+  <li>输入限制
+    <ul>
+      <li>输入长度限制</li>
+      <li>输入字符限制</li>
+      <li>合法性限制</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<blockquote>
+  <p>「形成核对检查清单的习惯能够避免很多错误的发生。没有其他任何一项程序会比这个步骤更加有效。」——查理·芒格</p>
+</blockquote>
+
+<h1 id="changelog">CHANGELOG</h1>
+
+<ul>
+  <li>1711128 润悟创建</li>
+</ul>
+
+
+</div>
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/tech/2017/09/16/how-to-use-terminal-better/">
+            更好地使用命令
+            <small>16 Sep 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/tech/2017/03/13/from-big-data-to-AI/">
+            从工业的角度看大数据到人工智能——张宏江讲座
+            <small>13 Mar 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+<div>
+
+
+
+<div id="disqus_thread"></div>
+<script>
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://rainvoo.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

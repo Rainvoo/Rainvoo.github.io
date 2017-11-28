@@ -101,13 +101,277 @@
  <title>Rainvoo</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-09-22T20:41:33+08:00</updated>
+ <updated>2017-11-28T18:30:30+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>润悟</name>
    <email>hrwsmart@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>产品需求文档、原型图自查清单</title>
+   <link href="/work/2017/11/28/prd-checklist/"/>
+   <updated>2017-11-28T00:00:00+08:00</updated>
+   <id>http://localhost:4000/work/2017/11/28/prd-checklist</id>
+   <content type="html">&lt;p&gt;刚画完的原型，一般都会自我感觉良好，当到了评审的时候，才会发现：&lt;/p&gt;
+
+&lt;p&gt;只考虑主流程或者某个模块流程，却把分支流程、特殊状态给忘了；某个模块在多处复用，没用母版，修改了 A1，A2 却没改；更新版本多了，前置条件边了，老版本的内容却没改过来……&lt;/p&gt;
+
+&lt;p&gt;开需求会前，先根据以下清单自查需求，能避免很多可以预见的错误，减少被开发和设计师吐槽。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tse3-mm.cn.bing.net/th?id=OIP.XE6iJB71TPPEGVvJ7U7QzAEXDf&amp;amp;p=0&amp;amp;pid=1.1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;清单原则&quot;&gt;清单原则&lt;/h1&gt;
+
+&lt;h1 id=&quot;1-主流程&quot;&gt;1. 主流程&lt;/h1&gt;
+
+&lt;h2 id=&quot;11-前置条件&quot;&gt;1.1 前置条件&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;是否有账号 / 状态的区别&lt;/li&gt;
+  &lt;li&gt;是否有权限区别&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;12-内容--页面&quot;&gt;1.2 内容 / 页面&lt;/h2&gt;
+
+&lt;h3 id=&quot;入口&quot;&gt;入口&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;从哪个模块进入&lt;/li&gt;
+  &lt;li&gt;首次进入 / 二次进入，是否有区别&lt;/li&gt;
+  &lt;li&gt;是否需要购买&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;显示机制&quot;&gt;显示机制&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;文字长度、特殊符号、敏感词限制&lt;/li&gt;
+  &lt;li&gt;内容为空时如何显示&lt;/li&gt;
+  &lt;li&gt;是否有数据记录单位&lt;/li&gt;
+  &lt;li&gt;是否有备注&lt;/li&gt;
+  &lt;li&gt;内容输入，是否会被键盘弹出遮盖&lt;/li&gt;
+  &lt;li&gt;是否有占位图&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;排序机制&quot;&gt;排序机制&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;以什么维度排序
+    &lt;ul&gt;
+      &lt;li&gt;如果是新内容，可能以更新时间排序&lt;/li&gt;
+      &lt;li&gt;如果是帖子，可能以赞同数排序&lt;/li&gt;
+      &lt;li&gt;如果是商品，可能以收藏数 / 销量 / 价格排序&lt;/li&gt;
+      &lt;li&gt;存在多个维度的排序规则时，规则之间的优先级如何，比如信息流产品&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;排序展示形式
+    &lt;ul&gt;
+      &lt;li&gt;翻页展示&lt;/li&gt;
+      &lt;li&gt;瀑布流展示&lt;/li&gt;
+      &lt;li&gt;一页显示多少项，是否分组取数据&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;刷新机制
+    &lt;ul&gt;
+      &lt;li&gt;自动刷新 or 手动刷新&lt;/li&gt;
+      &lt;li&gt;刷新时机&lt;/li&gt;
+      &lt;li&gt;一次刷新多少数据&lt;/li&gt;
+      &lt;li&gt;如何刷新更多&lt;/li&gt;
+      &lt;li&gt;没有更多新内容，有什么提示&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;缓存机制
+    &lt;ul&gt;
+      &lt;li&gt;哪些页面需要缓存机制&lt;/li&gt;
+      &lt;li&gt;缓存到哪里&lt;/li&gt;
+      &lt;li&gt;什么时候清理缓存&lt;/li&gt;
+      &lt;li&gt;定时自动清理缓存 or 用户手动清理缓存&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;13-控件&quot;&gt;1.3 控件&lt;/h2&gt;
+
+&lt;h3 id=&quot;退出返回&quot;&gt;退出、返回&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;页面返回键&lt;/li&gt;
+  &lt;li&gt;home 键&lt;/li&gt;
+  &lt;li&gt;物理返回键&lt;/li&gt;
+  &lt;li&gt;是否可能有循环嵌套&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;触发从状态-a-切到状态-b&quot;&gt;触发，从状态 A 切到状态 B&lt;/h3&gt;
+
+&lt;h4 id=&quot;触发前&quot;&gt;触发前&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;控件的触发区域&lt;/li&gt;
+  &lt;li&gt;操作区域是否便于用户感知&lt;/li&gt;
+  &lt;li&gt;禁用状态&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;触发时&quot;&gt;触发时&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;是否有触发反馈，反馈是否清晰
+    &lt;ul&gt;
+      &lt;li&gt;控件颜色、样式是否会发生改变&lt;/li&gt;
+      &lt;li&gt;是否有高亮&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;状态改变的等待时间是否超过2S左右，如果太长是否需要加入加载状态&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;触发后&quot;&gt;触发后&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;操作进度显示&lt;/li&gt;
+  &lt;li&gt;控件发生变化&lt;/li&gt;
+  &lt;li&gt;结果提示
+    &lt;ul&gt;
+      &lt;li&gt;小红点&lt;/li&gt;
+      &lt;li&gt;toast&lt;/li&gt;
+      &lt;li&gt;页面文案&lt;/li&gt;
+      &lt;li&gt;弹窗（删除、修改类危险操作，一定要弹窗警告提示）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;2-交互细节&quot;&gt;2. 交互细节&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;页面信息布局&lt;/li&gt;
+  &lt;li&gt;页面切换效果&lt;/li&gt;
+  &lt;li&gt;操作按钮位置&lt;/li&gt;
+  &lt;li&gt;操作反馈&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;3-边界异常-case&quot;&gt;3. 边界、异常 case&lt;/h1&gt;
+
+&lt;h2 id=&quot;31-异常操作&quot;&gt;3.1 异常操作&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;连续多次点击，是否有反馈&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;32-网络&quot;&gt;3.2 网络&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;无网络、断网提示&lt;/li&gt;
+  &lt;li&gt;网络超时、网络太慢&lt;/li&gt;
+  &lt;li&gt;从 WiFi 切换到 2G/3G（有没有从室内到室外的场景）&lt;/li&gt;
+  &lt;li&gt;网络加载状态&lt;/li&gt;
+  &lt;li&gt;加载失败状态 &amp;amp; 重试按钮&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;33-账号相关&quot;&gt;3.3 账号相关&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;是否需要登录才能使用，是否有游客模式&lt;/li&gt;
+  &lt;li&gt;苹果审核是否隐藏了微信等第三方登录按钮&lt;/li&gt;
+  &lt;li&gt;仅登录状态下的操作，对游客是否有登录提醒
+    &lt;ul&gt;
+      &lt;li&gt;支付购买&lt;/li&gt;
+      &lt;li&gt;收藏&lt;/li&gt;
+      &lt;li&gt;评论&lt;/li&gt;
+      &lt;li&gt;领取优惠&lt;/li&gt;
+      &lt;li&gt;数据同步&lt;/li&gt;
+      &lt;li&gt;……&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;多设备登录&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;34-数据相关&quot;&gt;3.4 数据相关&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;从服务器获取不到数据时，内置默认图片&lt;/li&gt;
+  &lt;li&gt;无内容时，默认提示&lt;/li&gt;
+  &lt;li&gt;数据检索失败&lt;/li&gt;
+  &lt;li&gt;数据丢失&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;35-缓存&quot;&gt;3.5 缓存&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;编辑内容是否缓存&lt;/li&gt;
+  &lt;li&gt;编辑模式下出现意外情况是否提示保存或自动保存已填信息&lt;/li&gt;
+  &lt;li&gt;最新数据与缓存数据不一致&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;36-版本相关&quot;&gt;3.6 版本相关&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;是否强制更新&lt;/li&gt;
+  &lt;li&gt;是否显示版本提示更新&lt;/li&gt;
+  &lt;li&gt;是否支持热更新&lt;/li&gt;
+  &lt;li&gt;是否和旧版本兼容&lt;/li&gt;
+  &lt;li&gt;重大不兼容的升级，是否强制用户更新&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;37-硬件环境类&quot;&gt;3.7 硬件、环境类&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;过大、过小尺寸屏幕，是否适配有问题，如 iPad、iPhone5s&lt;/li&gt;
+  &lt;li&gt;横竖屏旋转，布局是否不合理，是否在某些页面做锁定旋转&lt;/li&gt;
+  &lt;li&gt;内存不足&lt;/li&gt;
+  &lt;li&gt;SD卡 文件下载、导入本地时，没有SD卡、SD卡储存已满、储存位置等情况是否考虑并备注（三星手机用户常见此问题）&lt;/li&gt;
+  &lt;li&gt;权限不足
+    &lt;ul&gt;
+      &lt;li&gt;是否用户关闭了部分权限，导致功能不可用（相册、照相机、定位、麦克风），是否有相关告知&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;密码输入，是否支持 touchID&lt;/li&gt;
+  &lt;li&gt;是否需要考虑夜间模式（有没有光线较暗的场景）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;通知相关&quot;&gt;通知相关&lt;/h2&gt;
+
+&lt;p&gt;消息推送 是否需要消息推送，调用系统通知还是其他方式
+推送策略 是否备注通知的推送时间、表现形式、失效策略&lt;/p&gt;
+
+&lt;h2 id=&quot;38-活动类&quot;&gt;3.8 活动类&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;活动有效期&lt;/li&gt;
+  &lt;li&gt;过期提醒和权限变更&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;39-其他&quot;&gt;3.9 其他&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;事件互斥性，执行某个操作的同时执行其他操作是否允许
+    &lt;ul&gt;
+      &lt;li&gt;eg：语音播放过程中，点击返回是否结束语音播放&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;输入限制
+    &lt;ul&gt;
+      &lt;li&gt;输入长度限制&lt;/li&gt;
+      &lt;li&gt;输入字符限制&lt;/li&gt;
+      &lt;li&gt;合法性限制&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「形成核对检查清单的习惯能够避免很多错误的发生。没有其他任何一项程序会比这个步骤更加有效。」——查理·芒格&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;changelog&quot;&gt;CHANGELOG&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1711128 润悟创建&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>更好地使用命令</title>
